@@ -71,6 +71,7 @@
     <Content Include="userinsert.aspx" />
     <Content Include="userpage.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="userpage.aspx.designer.cs">
       <DependentUpon>userpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
